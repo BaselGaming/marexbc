@@ -103,25 +103,9 @@ m.sendMessage(args)
 
        *bc  |  لأرسال برود كاست للأونلاين
      
-       *support | سيرفر السبورت** `)
-   message.author.sendEmbed(embed)
-   
+  
    }
    });
-
-
-  
-   client.on("message", message => {
-    if (message.content === "*support") {
-     const embed = new Discord.RichEmbed()
-         .setColor("RANDOM")
-         .addField('❤سيرفر الدعم الفني', `  https://discord.gg/NuQ2zYu  `)
-     message.author.send({embed});
-   
-    }
-   });
-
-
 
 
 
